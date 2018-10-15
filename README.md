@@ -34,8 +34,8 @@
 
 *sudo apt-get install rbenv ruby-dev ruby-bundler
 
-**#After that run teh following commands:**
+**#After that run the following commands:**
 
-*bundle install
+*bundle install - install the dependencies specified in your Gemfile
 
 *bundle exec kitchen test
