@@ -16,17 +16,14 @@
 
 **#Run the following commands:**
 
-*terraform fmt - formats all terraform code
-
-*terraform init - initialize a working directory containing terraform configuration files
-
-*terraform plan - create an execution plan
-
-*terrafrom apply - applies the changes created by execution plan 
-
-*terraform destroy - destroy the terraform infrastructure
-
-*terrafrom apply - applies the changes created by execution plan 
+Command | Explanation 
+--------------------------------------------------------------------------------------------------
+terraform fmt | formats all terraform code
+terraform init | initialize a working directory containing terraform configuration files
+terraform plan | create an execution plan
+terrafrom apply | applies the changes created by execution plan 
+terraform destroy | destroy the terraform infrastructure
+terrafrom apply | applies the changes created by execution plan 
 
 **#For Linux users you need to update gemfile from 2.3.1 to 2.5.1**
 
