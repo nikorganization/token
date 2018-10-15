@@ -1,6 +1,6 @@
 # token
 
-#First create personal access token by going to settings-Developer settings-generate new token. 
+First create personal access token by going to settings-Developer settings-generate new token. 
 Copy the token and run this command: export TF_VAR_github_token="paste token here"
 Override the name of the repo with this command: variable export TF_VAR_repo=newname
 
