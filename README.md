@@ -6,13 +6,16 @@
 
 *export TF_VAR_github_token="paste token here"
 
+
 **#Override the name of the repo with this command:**
 
 *variable export TF_VAR_repo=newname
 
+
 **#Copy the following files and direcroties to your repo:**
 
 **#Gemfile, .kitchen.yml, teh whole test directory and testing.tfvars**
+
 
 **#Run the following commands:**
 
@@ -25,11 +28,13 @@ terrafrom apply | applies the changes created by execution plan
 terraform destroy | destroy the terraform infrastructure
 terrafrom apply | applies the changes created by execution plan 
 
+
 **#For Linux users you need to update gemfile from 2.3.1 to 2.5.1**
 
 **#Run the following commands to update gemfile:**
 
 *sudo apt-get install rbenv ruby-dev ruby-bundler
+
 
 **#After that run the following commands:**
 
