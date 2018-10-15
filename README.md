@@ -17,7 +17,7 @@
 **#Run the following commands:**
 
 Command | Explanation 
---------------------------------------------------------------------------------------------------
+-------------- | -------------------------
 terraform fmt | formats all terraform code
 terraform init | initialize a working directory containing terraform configuration files
 terraform plan | create an execution plan
