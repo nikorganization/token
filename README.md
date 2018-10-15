@@ -5,13 +5,13 @@
 
 **Copy the token and run this command:**
 
-*export TF_VAR_github_token="paste token here"
+export TF_VAR_github_token="paste token here"
 
 *Step 2*
 
 **Override the name of the repo with this command:**
 
-*variable export TF_VAR_repo=newname
+variable export TF_VAR_repo=newname
 
 *Step 3*
 
@@ -38,7 +38,7 @@ terrafrom apply | applies the changes created by execution plan
 
 **Run the following commands to update gemfile:**
 
-*sudo apt-get install rbenv ruby-dev ruby-bundler
+sudo apt-get install rbenv ruby-dev ruby-bundler
 
 
 *Step 6*
@@ -46,6 +46,6 @@ terrafrom apply | applies the changes created by execution plan
 
 **After that run the following commands:**
 
-*bundle install - install the dependencies specified in your Gemfile
+bundle install - install the dependencies specified in your Gemfile
 
-*bundle exec kitchen test
+bundle exec kitchen test
