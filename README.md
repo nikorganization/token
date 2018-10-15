@@ -1,27 +1,27 @@
 # token
 *Step 1*
 
-**#First create personal access token by going to settings-Developer settings-generate new token.**
+**First create personal access token by going to settings-Developer settings-generate new token.**
 
-**#Copy the token and run this command:**
+**Copy the token and run this command:**
 
 *export TF_VAR_github_token="paste token here"
 
 *Step 2*
 
-**#Override the name of the repo with this command:**
+**Override the name of the repo with this command:**
 
 *variable export TF_VAR_repo=newname
 
 *Step 3*
 
-**#Copy the following files and direcroties to your repo:**
+**Copy the following files and direcroties to your repo:**
 
-**#Gemfile, .kitchen.yml, teh whole test directory and testing.tfvars**
+**Gemfile, .kitchen.yml, teh whole test directory and testing.tfvars**
 
 *Step 4*
 
-**#Run the following commands:**
+**Run the following commands:**
 
 Command | Explanation 
 -------------- | -------------------------
@@ -34,9 +34,9 @@ terrafrom apply | applies the changes created by execution plan
 
 *Step 5*
 
-**#For Linux users you need to update gemfile from 2.3.1 to 2.5.1**
+**For Linux users you need to update gemfile from 2.3.1 to 2.5.1**
 
-**#Run the following commands to update gemfile:**
+**Run the following commands to update gemfile:**
 
 *sudo apt-get install rbenv ruby-dev ruby-bundler
 
@@ -44,7 +44,7 @@ terrafrom apply | applies the changes created by execution plan
 *Step 6*
 
 
-**#After that run the following commands:**
+**After that run the following commands:**
 
 *bundle install - install the dependencies specified in your Gemfile
 
