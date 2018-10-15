@@ -1,6 +1,6 @@
 # token
 
-#First create personal access token by going to settings-Developer settings-generate new token. 
+**#First create personal access token by going to settings-Developer settings-generate new token.**
 
 #Copy the token and run this command: 
 
