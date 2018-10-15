@@ -27,7 +27,7 @@ terrafrom apply | applies the changes created by execution plan
 
 **#For Linux users you need to update gemfile from 2.3.1 to 2.5.1**
 
-**#Run the following commands:**
+**#Run the following commands to update gemfile:**
 
 *sudo apt-get install rbenv ruby-dev ruby-bundler
 
