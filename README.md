@@ -6,7 +6,11 @@ What this repo does
 
 - create a new [personal access token](https://github.com/settings/tokens)
 - run `export TF_VAR_github_token=<token generated>`
-- optionally, you can override the repo with `export TF_VAR_repo=<name>`
+- optionally, you can override the repo name with:
+```
+export TF_VAR_repo=<name>
+```
+
 - this repo requires bundler, if you are in ubuntu linux, you can use:
 ```
 sudo apt-get install -y ruby-bundler
